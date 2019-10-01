@@ -8,3 +8,15 @@ body {
   .navbar .nav-item {
     font-size: 1.4rem;
     padding-right: 1.4rem; }
+
+#showcase {
+  position: relative;
+  min-height: 600px;
+  background: url("../img/mountains.jpg"); }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
