@@ -21,10 +21,15 @@ body {
     height: 100%;
     width: 100%; }
 
-@media (max-width-768) {
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+@media (max-width: 768px) {
   #showcase {
     min-height: 500px; }
     #showcase h1 {
-      font-size: 4rem; }
+      font-size: 2rem; }
   .mb-resp {
     margin-bottom: 1rem; } }
